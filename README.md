@@ -1,5 +1,7 @@
 # Home Assistant Add-on: Jailed SFTP
 
+![Jailed SFTP Logo](./jailed_sftp/icon.png)
+
 This repository contains the **Jailed SFTP** add-on for Home Assistant.
 
 ## About
