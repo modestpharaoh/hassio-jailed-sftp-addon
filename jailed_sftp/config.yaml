@@ -1,0 +1,29 @@
+name: "Jailed SFTP"
+version: "2.0.0"
+slug: "jailed_sftp"
+description: "A jailed SFTP server supporting multiple users and SSH keys."
+url: "https://github.com/modestpharaoh/hassio-jailed-sftp-addon"
+startup: services
+init: false
+arch:
+  - aarch64
+  - amd64
+map:
+  - media:rw
+  - share:rw
+ports:
+  22/tcp: 222
+ports_description:
+  22/tcp: "SFTP Port"
+options:
+  users: []
+  log_level: info
+schema:
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
+  users:
+    - username: str
+      password: str?
+      ssh_key:
+        - str?
+      parent_directory: list(media|share)
+      sub_directory: str?
