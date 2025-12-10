@@ -1,5 +1,5 @@
 name: "Jailed SFTP"
-version: "2.0.0"
+version: "1.0.0"
 slug: "jailed_sftp"
 description: "A jailed SFTP server supporting multiple users and SSH keys."
 url: "https://github.com/modestpharaoh/hassio-jailed-sftp-addon"

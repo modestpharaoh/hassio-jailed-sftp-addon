@@ -8,15 +8,12 @@ The Jailed SFTP add-on provides a secure sftp server that allows you to create m
 
 ## Installation
 
-1.  Add this repository to your Home Assistant Add-on Store:
-    [![Open your Home Assistant instance and show the add-on store assignment dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fmodestpharaoh%2Fhassio-jailed-sftp-addon)
-    
-    Or manually add: `https://github.com/modestpharaoh/hassio-jailed-sftp-addon`
-
-2.  Install the **Jailed SFTP** add-on.
-
-3.  Configure users and start the add-on.
+1. Go to the Add-on Store → Click the **More** button (⋮) in the upper-right corner → Select **Repositories**  
+2. Paste the following URL:
+   [https://github.com/modestpharaoh/hassio-jailed-sftp-addon](https://github.com/modestpharaoh/hassio-jailed-sftp-addon)
+3. Or, simply click the button below to add it automatically:
+[![Add Repository](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fmodestpharaoh%2Fhassio-jailed-sftp-addon)
 
 ## License
 
-MIT License
+All add-ons in this repository are released under the [MIT License](./LICENSE).
